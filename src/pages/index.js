@@ -12,10 +12,20 @@ const IndexPage = () => (
       title="Home"
       keywords={[`gatsby`, `application`, `react`, `goldy`, `golden`, `stag`]}
     />
-    <h3>The Date: Friday 29th March </h3>
-    <h3>The Time: 12:00pm</h3>
-    <h3>The Place: The Three Tuns</h3>
-    <h3>The Plan: STAAAAAAAG!</h3>
+    <div>
+      <p className="left">
+        The Date:<span className="right">Friday 29th March</span>
+      </p>
+      <p className="left">
+        The Time:<span className="right">12:00pm</span>
+      </p>
+      <p className="left">
+        The Place:<span className="right">The Three Tuns</span>
+      </p>
+      <p className="left">
+        The Plan: <span className="right">STAAAAAAAG!</span>
+      </p>
+    </div>
     <Map
       isMarkerShown
       googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
@@ -23,10 +33,10 @@ const IndexPage = () => (
       containerElement={<div style={{ height: `400px` }} />}
       mapElement={<div style={{ height: `100%` }} />}
     />
-    <h3 style={{ paddingTop: 25 }}>
-      Bring clothing suitable for outdoor activities
-    </h3>
-    <h3>Drivers Required</h3>
+    <p className="left" style={{ paddingTop: 25 }}>
+      Bring clothing suitable for outdoor activities.
+    </p>
+    <p className="left">Drivers required.</p>
 
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <GoldFace />

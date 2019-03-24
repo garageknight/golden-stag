@@ -200,7 +200,8 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -619,4 +620,11 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.right {
+  font-weight: 400;
+  padding-left: 15px;
+}
+.left {
+  font-weight: 600;
 }
