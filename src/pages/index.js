@@ -15,7 +15,7 @@ const IndexPage = () => (
     <h3>The Date: Friday 29th March </h3>
     <h3>The Time: 12:00pm</h3>
     <h3>The Place: The Three Tuns</h3>
-    <h3>The Plan: STTTAAAAAAAAAGGGGG!!!</h3>
+    <h3>The Plan: STAAAAAAAG!</h3>
     <Map
       isMarkerShown
       googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
