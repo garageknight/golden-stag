@@ -23,7 +23,9 @@ const IndexPage = () => (
       containerElement={<div style={{ height: `400px` }} />}
       mapElement={<div style={{ height: `100%` }} />}
     />
-    <h3>Bring: Clothing suitable for outdoor activities</h3>
+    <h3 style={{ paddingTop: 25 }}>
+      Bring: Clothing suitable for outdoor activities
+    </h3>
 
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <GoldFace />
